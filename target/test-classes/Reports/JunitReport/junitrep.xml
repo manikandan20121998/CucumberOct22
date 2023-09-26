@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="132.687369">
+<testcase classname="To validate the Homepage Functionality" name="To validate the From and To credentials" time="35.654152">
+<failure message="org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Book and buy transaction on internet booking less than 0 hours is not permissible on the system, you may contact our reservation and ticketing hot line (021) 34833940, (021) 34833942.}&#10;  (Session info: chrome=107.0.5304.107): Book and buy transaction on internet booking less than 0 hours is not permissible on the system, you may contact our reservation and ticketing hot line (021) 34833940, (021) 34833942.&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-418NQCC', ip: '192.168.0.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\MANIMA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 91f811cae2b30c87e9060bc4e505cbe3&#10;*** Element info: {Using=id, value=div_flight_details}&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)&#13;&#10;&#9;at org.openqa.selenium.By$ById.findElement(By.java:188)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at org.stepdefinition.HomepageAirline.click_date_of_departure(HomepageAirline.java:96)&#13;&#10;&#9;at ✽.click date of departure(file:src/test/resources/Features/airline.feature:10)&#13;&#10;"><![CDATA[Given The user should be in airline login page..............................passed
+When The user has enter from and to location................................passed
+And to select a adult,child,infant details..................................passed
+And then click a search button..............................................passed
+When click date of departure................................................failed
+Then The user should be see a Flight list...................................skipped
+
+StackTrace:
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Book and buy transaction on internet booking less than 0 hours is not permissible on the system, you may contact our reservation and ticketing hot line (021) 34833940, (021) 34833942.}
+  (Session info: chrome=107.0.5304.107): Book and buy transaction on internet booking less than 0 hours is not permissible on the system, you may contact our reservation and ticketing hot line (021) 34833940, (021) 34833942.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-418NQCC', ip: '192.168.0.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\MANIMA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 91f811cae2b30c87e9060bc4e505cbe3
+*** Element info: {Using=id, value=div_flight_details}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.stepdefinition.HomepageAirline.click_date_of_departure(HomepageAirline.java:96)
+	at ✽.click date of departure(file:src/test/resources/Features/airline.feature:10)
+]]></failure>
+</testcase>
+<testcase classname="To validate the Homepage Functionality" name="To check our client details" time="37.951515">
+<system-out><![CDATA[Given The user should be in airline page....................................passed
+When to click our branches button...........................................passed
+And to take screenshot on first page what we see............................passed
+And then scroll down then take another one screenshot.......................passed
+And then click a close button...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the Homepage Functionality" name="to click and take airline pic" time="59.081702">
+<system-out><![CDATA[Given to go airline page....................................................passed
+When to click and take pic on that particular picture.......................passed
+]]></system-out>
+</testcase>
+</testsuite>

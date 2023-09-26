@@ -1,0 +1,44 @@
+@E2E
+Feature: To validate the Homepage Functionality
+
+  @E2E @first
+  Scenario: To validate the From and To credentials # src/test/resources/Features/airline.feature:5
+    Given The user should be in airline login page  # HomepageAirline.the_user_should_be_in_airline_login_page()
+    When The user has enter from and to location    # HomepageAirline.the_user_has_enter_from_and_to_location()
+    And to select a adult,child,infant details      # HomepageAirline.to_select_a_adult_child_infant_details()
+    And then click a search button                  # HomepageAirline.then_click_a_search_button()
+    When click date of departure                    # HomepageAirline.click_date_of_departure()
+      org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Book and buy transaction on internet booking less than 0 hours is not permissible on the system, you may contact our reservation and ticketing hot line (021) 34833940, (021) 34833942.}
+  (Session info: chrome=107.0.5304.107): Book and buy transaction on internet booking less than 0 hours is not permissible on the system, you may contact our reservation and ticketing hot line (021) 34833940, (021) 34833942.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-418NQCC', ip: '192.168.0.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\MANIMA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 91f811cae2b30c87e9060bc4e505cbe3
+*** Element info: {Using=id, value=div_flight_details}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.stepdefinition.HomepageAirline.click_date_of_departure(HomepageAirline.java:96)
+	at ✽.click date of departure(file:src/test/resources/Features/airline.feature:10)
+
+    Then The user should be see a Flight list       # HomepageAirline.the_user_should_be_see_a_Flight_list()
+
+  @E2E @second
+  Scenario: To check our client details                   # src/test/resources/Features/airline.feature:15
+    Given The user should be in airline page              # HomepageAirline.the_user_should_be_in_airline_page()
+    When to click our branches button                     # HomepageAirline.to_click_our_branches_button()
+    And to take screenshot on first page what we see      # HomepageAirline.to_take_screenshot_on_first_page_what_we_see()
+    And then scroll down then take another one screenshot # HomepageAirline.then_scroll_down_then_take_another_one_screenshot()
+    And then click a close button                         # HomepageAirline.then_click_a_close_button()
+
+  @E2E @third
+  Scenario: to click and take airline pic                 # src/test/resources/Features/airline.feature:23
+    Given to go airline page                              # HomepageAirline.to_go_airline_page()
+    When to click and take pic on that particular picture # HomepageAirline.to_click_and_take_pic_on_that_particular_picture()

@@ -1,0 +1,200 @@
+[
+  {
+    "source": "The user should be in airline login page",
+    "steps": [
+      {
+        "name": "The user should be in airline login page",
+        "aggregatedDurations": {
+          "median": 0.0060651,
+          "average": 0.006065100
+        },
+        "durations": [
+          {
+            "duration": 0.0060651,
+            "location": "file:src/test/resources/Features/airline.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user has enter from and to location",
+    "steps": [
+      {
+        "name": "The user has enter from and to location",
+        "aggregatedDurations": {
+          "median": 6.1996251,
+          "average": 6.199625100
+        },
+        "durations": [
+          {
+            "duration": 6.1996251,
+            "location": "file:src/test/resources/Features/airline.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "to select a adult,child,infant details",
+    "steps": [
+      {
+        "name": "to select a adult,child,infant details",
+        "aggregatedDurations": {
+          "median": 0.4895077,
+          "average": 0.489507700
+        },
+        "durations": [
+          {
+            "duration": 0.4895077,
+            "location": "file:src/test/resources/Features/airline.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "then click a search button",
+    "steps": [
+      {
+        "name": "then click a search button",
+        "aggregatedDurations": {
+          "median": 2.2247017,
+          "average": 2.224701700
+        },
+        "durations": [
+          {
+            "duration": 2.2247017,
+            "location": "file:src/test/resources/Features/airline.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should be in airline page",
+    "steps": [
+      {
+        "name": "The user should be in airline page",
+        "aggregatedDurations": {
+          "median": 16.0123531,
+          "average": 16.012353100
+        },
+        "durations": [
+          {
+            "duration": 16.0123531,
+            "location": "file:src/test/resources/Features/airline.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "to click our branches button",
+    "steps": [
+      {
+        "name": "to click our branches button",
+        "aggregatedDurations": {
+          "median": 0.2826474,
+          "average": 0.282647400
+        },
+        "durations": [
+          {
+            "duration": 0.2826474,
+            "location": "file:src/test/resources/Features/airline.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "to take screenshot on first page what we see",
+    "steps": [
+      {
+        "name": "to take screenshot on first page what we see",
+        "aggregatedDurations": {
+          "median": 3.6635348,
+          "average": 3.663534800
+        },
+        "durations": [
+          {
+            "duration": 3.6635348,
+            "location": "file:src/test/resources/Features/airline.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "then scroll down then take another one screenshot",
+    "steps": [
+      {
+        "name": "then scroll down then take another one screenshot",
+        "aggregatedDurations": {
+          "median": 0.2820649,
+          "average": 0.282064900
+        },
+        "durations": [
+          {
+            "duration": 0.2820649,
+            "location": "file:src/test/resources/Features/airline.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "then click a close button",
+    "steps": [
+      {
+        "name": "then click a close button",
+        "aggregatedDurations": {
+          "median": 0.1422972,
+          "average": 0.142297200
+        },
+        "durations": [
+          {
+            "duration": 0.1422972,
+            "location": "file:src/test/resources/Features/airline.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "to go airline page",
+    "steps": [
+      {
+        "name": "to go airline page",
+        "aggregatedDurations": {
+          "median": 38.3999922,
+          "average": 38.399992200
+        },
+        "durations": [
+          {
+            "duration": 38.3999922,
+            "location": "file:src/test/resources/Features/airline.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "to click and take pic on that particular picture",
+    "steps": [
+      {
+        "name": "to click and take pic on that particular picture",
+        "aggregatedDurations": {
+          "median": 4.3585494,
+          "average": 4.358549400
+        },
+        "durations": [
+          {
+            "duration": 4.3585494,
+            "location": "file:src/test/resources/Features/airline.feature:25"
+          }
+        ]
+      }
+    ]
+  }
+]
